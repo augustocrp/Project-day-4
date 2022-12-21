@@ -1,3 +1,4 @@
+import time
 
 t = input("Digite o tempo (emsegundos): ")
 
@@ -14,4 +15,5 @@ while t: #  0  -> False | 1, 2,   -> True
     minutes, seconds = divmod(t, 60)
     timer = f"{minutes}:{seconds}"
     print(timer, end="\r")
+    time.sleep(1)
     t = t - 1
