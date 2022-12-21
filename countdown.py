@@ -1,6 +1,6 @@
 import time
 
-t = input("Digite o tempo (emsegundos): ")
+t = input("Digite o tempo (em segundos): ")
 
 if t.isdigit():
     t = int(t)
