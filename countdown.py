@@ -18,4 +18,7 @@ while t: #  0  -> False | 1, 2,   -> True
     time.sleep(1)
     t = t - 1
 
+# 70 / 60 -> 1 | 10 -> TIMER: "1:10"
+# 69 / 60 -> 1 | 9 -> TIMER: "1:9"
+
 print("Tempo acabou!!!")
