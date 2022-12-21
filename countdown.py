@@ -19,6 +19,6 @@ while t: #  0  -> False | 1, 2,   -> True
     t = t - 1
 
 # 70 / 60 -> 1 | 10 -> TIMER: "1:10"
-# 69 / 60 -> 1 | 9 -> TIMER: "1:9"
+# 69 / 60 -> 1 | 9 -> TIMER: "1:09"
 
 print("Tempo acabou!!!")
