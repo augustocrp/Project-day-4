@@ -17,3 +17,5 @@ while t: #  0  -> False | 1, 2,   -> True
     print(timer, end="\r")
     time.sleep(1)
     t = t - 1
+
+print("Tempo acabou!!!")
